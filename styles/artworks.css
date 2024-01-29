@@ -1,0 +1,233 @@
+.aw_section1 {
+    display: flex;
+    background-image: url(..//images/Rectangle-107.png);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+}
+
+.aw_section1_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 151px;
+    width: 588px;
+    text-align: center;
+}
+
+.aw_section1_form {
+    display: flex;
+    align-items: center;
+}
+
+.aw_section1_title {
+
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFF;
+    text-shadow: 0px 4px 4px #402101;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.aw_section1_input {
+
+    border-radius: 10px 0px 0px 10px;
+    background: #F5F5F5;
+    outline-color: #FFFFFF;
+    border: none;
+    width: 408px;
+    height: 54px;
+    padding-left: 16px;
+    border: 2px solid white;
+    color: rgba(213, 144, 110, 0.5);
+
+
+
+
+
+
+}
+
+.aw_section1_input::placeholder {
+    color: rgba(213, 144, 110, 0.5);
+}
+
+.aw_section1_button {
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    width: 180px;
+    line-height: 22px;
+    border: none;
+    background: #B53B1B;
+    color: white;
+    padding: 15px 53px 15px 54px;
+    border: 1px solid white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.aw_section1_button:hover {
+    box-shadow: inset 200px 0 0 0 rgb(0, 255, 51);
+
+}
+
+
+.section4_form {
+    width: 100%;
+    display: flex;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+/* aw cards */
+
+.aw_section2 {
+    background: #EA904F;
+    padding: 120px 120px;
+}
+
+.aw_product_article {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    background-color: #fff;
+    padding: 16px;
+    justify-content: center;
+    row-gap: 16px;
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    border-radius: 8px;
+}
+
+.aw_product_article:hover {
+    transform: scale(1.1); 
+    filter: brightness(70%); 
+}
+
+.aw_product_title {
+    padding-bottom: 37px;
+    /* font-size: 18px; */
+}
+
+.aw_buy_button {
+    position: absolute;
+    border-radius: 8px;
+    background: #B53B1B;
+    border: none;
+    margin-bottom: 16px;
+    margin-left: 230px;
+    color: #FFF;
+}
+
+.aw_products_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-evenly;
+    width: 1250px;
+    gap: 40px;
+}
+
+.aw_product_price {
+    color: #402101;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.aw_section2_title {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.sort_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 24px;
+    padding: 8px 21px;
+    width: 160px;
+    height: 45px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #B53B1B;
+    background: #FFF;
+
+}
+.sort_button:hover {
+    color: #494949 !important;
+    border-radius: 50px;
+    border-color: #494949 !important;
+    transition: all 0.3s ease 0s;
+    }
+
+.aw_section2_div {
+    margin: auto;
+    margin-bottom: 88px;
+    display: flex;
+    align-items: center;
+    width: 1250px;
+    /* height: 260px; */
+    justify-content: space-between;
+    
+}
+
+/* button container  */
+
+.page_buttons {
+    display: flex;
+    width: 448px;
+    margin: auto;
+
+    align-self: center;
+    margin-top: 88px;
+    }
+
+.aw_page_buttons {
+    border: none;
+    width: 56px;
+color: white;
+    gap: none;
+    margin: none;
+    height: 56px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    
+    font-weight: 400;
+    border: 2px solid #FFF;
+    background-color: transparent;
+    cursor: pointer;
+
+
+}
+
+.active_btn{
+
+    background: #B53B1B;
+}

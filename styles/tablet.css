@@ -1,0 +1,144 @@
+@media (max-width: 768px) {
+    header {
+        padding-inline: 10px;
+    }
+    .container {
+        width: 768px;
+        margin: auto;
+    }
+    header{
+        padding-inline: 60px;
+    }
+    .nav_ul {
+        display: none;
+        column-gap: 10px;
+        font-size: 14px;
+    }
+    .nav_ul.show {
+        display: flex;
+    }
+
+    .nav_ul {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 30%;
+        background-color: hsl(30, 97%, 13%);
+        /* border: 1px solid white; */
+        display: none;
+      }
+
+      .nav_ul a {
+        display: block;
+        padding: 15px;
+        text-align: center;
+      }
+
+
+
+
+
+
+    .burger-menu {
+        display: block;
+    }
+
+    .main {
+        height: auto;
+        flex-direction: column;
+    }
+    .cover1img{
+        width: 768px;
+    }
+
+    .main_1 {
+        position: absolute;
+        text-align: center;
+    }
+
+    .main_p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .main_btn {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .grid_container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .grid_container div {
+        text-align: center;
+    }
+
+    .main_grid button {
+        position: absolute;
+        transform: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 14px;
+    }
+
+    .section3 {
+        padding: 10px;
+        overflow-y: scroll;
+    }
+
+    .section3_title {
+        position: relative;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .product_article {
+        width: 100%;
+    }
+
+    .buy_button {
+        position: static;
+        font-size: 14px;
+        padding: 8px;
+    }
+    .section4_div {
+        text-align: center;
+        align-items: center;
+    }
+
+    .section4_title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    footer {
+        width: 768px;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .left_footer {
+        left: 0;
+        text-align: left;
+    }
+
+    .footer_title_a {
+        margin: auto;
+        justify-content: center;
+    }
+
+    .contacts {
+        margin-left: 50px;
+        text-align: right;
+    }
+}
